@@ -27,10 +27,6 @@
       <id>spigot</id>
       <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
     </repository>
-    <repository>
-      <id>shepherdjerred-minecraft plugin-parent-pom</id>
-      <url>https://maven.pkg.github.com/shepherdjerred-minecraft/plugin-parent-pom</url>
-    </repository>
   </repositories>
 
   <distributionManagement>
@@ -136,7 +132,7 @@
       <dependency>
         <groupId>org.spigotmc</groupId>
         <artifactId>spigot-api</artifactId>
-        <version>1.16.1-R0.1-snapshot</version>
+        <version>1.16.1-R0.1-SNAPSHOT</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
